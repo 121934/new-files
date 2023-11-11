@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kemal"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-07 04:58:33 &#214;S"/>
+        <attribute name="created" value="a2VtYWw7REVTS1RPUC1VQk9LMzNDOzIwMjMtMTEtMDc7MDQ6NTM6Mzkgw5ZTOzMwMDM="/>
+        <attribute name="edited" value="a2VtYWw7REVTS1RPUC1VQk9LMzNDOzIwMjMtMTEtMDc7MDQ6NTg6MzMgw5ZTOzE7MzExMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="k&#305;sa, uzun, alan, cevre" type="Integer" array="False" size=""/>
+            <output expression="&quot;dikd&#246;rtgenin k&#305;sa kenar&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="k&#305;sa"/>
+            <output expression="&quot;dikd&#246;rtgenin uzun kenar&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="uzun"/>
+            <assign variable="cevre" expression="2*(uzun+k&#305;sa)"/>
+            <assign variable="alan" expression="k&#305;sa*uzun"/>
+            <output expression="&quot;&#231;evre de&#287;eriniz=&quot; &amp;cevre  &amp; &quot; alan de&#287;eriniz=&quot; &amp;alan" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

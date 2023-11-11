@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kemal"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-11 12:37:07 &#214;&#214;"/>
+        <attribute name="created" value="a2VtYWw7REVTS1RPUC1VQk9LMzNDOzIwMjMtMTEtMTE7MTI6MzM6NDEgw5bDljszMTE5"/>
+        <attribute name="edited" value="a2VtYWw7REVTS1RPUC1VQk9LMzNDOzIwMjMtMTEtMTE7MTI6Mzc6MDcgw5bDljsxOzMyMzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vize, final, ortalama" type="Integer" array="False" size=""/>
+            <output expression="&quot;vize notunuzu giriniz&quot;" newline="True"/>
+            <input variable="vize"/>
+            <output expression="&quot;final notunuzu giriniz&quot;" newline="True"/>
+            <input variable="final"/>
+            <assign variable="ortalama" expression="vize*30/100+final*70/100"/>
+            <output expression="&quot;ortalama de&#287;eriniz&quot; &amp;ortalama" newline="True"/>
+            <if expression="final&gt;50 &amp;&amp; ortalama&gt;50">
+                <then>
+                    <output expression="&quot;ge&#231;tiniz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ge&#231;emediniz&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

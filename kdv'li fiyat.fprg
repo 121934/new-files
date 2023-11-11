@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kemal"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-08 09:38:52 &#214;&#214;"/>
+        <attribute name="created" value="a2VtYWw7REVTS1RPUC1VQk9LMzNDOzIwMjMtMTEtMDg7MDk6Mjk6MzIgw5bDljszMTM2"/>
+        <attribute name="edited" value="a2VtYWw7REVTS1RPUC1VQk9LMzNDOzIwMjMtMTEtMDg7MDk6Mzg6NTIgw5bDljsxOzMyNDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fiyat1, fiyat2, oran, kdv" type="Integer" array="False" size=""/>
+            <output expression="&quot;ilk fiyat&#305; giriniz&quot;" newline="True"/>
+            <input variable="fiyat1"/>
+            <output expression="&quot;kdv oran&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="oran"/>
+            <assign variable="fiyat2" expression="fiyat1+(fiyat1)*((oran)/100)"/>
+            <assign variable="kdv" expression="(fiyat1)*((oran)/100)"/>
+            <output expression="&quot;son fiyat&#305;n&#305;z  &quot; &amp;fiyat2  &amp; &quot;kdv oran&#305;n&#305;z&quot;  &amp;kdv" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

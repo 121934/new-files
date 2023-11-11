@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kemal"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-08 09:44:24 &#214;&#214;"/>
+        <attribute name="created" value="a2VtYWw7REVTS1RPUC1VQk9LMzNDOzIwMjMtMTEtMDg7MDk6Mzk6Mjcgw5bDljszMTQx"/>
+        <attribute name="edited" value="a2VtYWw7REVTS1RPUC1VQk9LMzNDOzIwMjMtMTEtMDg7MDk6NDQ6MjQgw5bDljsxOzMyNDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yas" type="Integer" array="False" size=""/>
+            <output expression="&quot;ya&#351;&#305;n&#305;z&#305; giriniz&quot;" newline="True"/>
+            <input variable="yas"/>
+            <if expression="yas&lt;18">
+                <then>
+                    <output expression="&quot;18'den k&#252;&#231;&#252;k oldu&#287;unuz i&#231;in ehliyet alamazs&#305;n&#305;z&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ehliyet alabilirsiniz&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
